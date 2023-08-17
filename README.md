@@ -4,4 +4,9 @@
 <p>Extension: index.ejs</p>
 <p>Here we write js inside HTML without using script tag </p>
 <p>Embedded JavaScript is a programming language that is used to create interactive web applications. It is a client-side scripting language that runs inside the web browser. Embedded JavaScript enables web developers to create dynamic, interactive, and responsive web applications.</p>
-<p><%= variable%> \t JSOutput It will show up on Output Screen</p>
+<p><%= variable%>                                                                  JSOutput It will show up on Output Screen</p>
+<p><% console.log("hello") %>                                                      It will run on Terminal(Console) not on UI     </p>
+<p><%- <h1>Hello </h1>                                                              It will run(Render) as HTML code on UI</p>
+<p><%% %%>                                                                           If we wish to % on our server website we can use it to display % on UI</p>
+<p> <%# This is a Commnet %>                                                          THis won't be interpreted it will act as a comment                </p>
+<p><%- include("index.ejs")%>                                                        Insert another EJS file</p>
