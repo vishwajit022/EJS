@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <p>Current Second:
+        <%= new Date().getSeconds() %>
+    </p>
+
+
+    <p>
+        <!--All the logical js which is not visible on UI screen Should be enclosed inside the tag given below-->
+        <% if(seconds%2==0){%>
+            <ul>
+                <!--List Goes in here -->
+                <%= items %>
+
+                    <%  items.forEach((fruit)=>{%>
+                        <li>
+                            <%= fruit  %>
+                        </li>
+                        <% })%>
+
+
+            </ul>
+
+            <%} else{%>
+                <p>
+                    <!--No items to Display-->
+                    No items to Display
+                </p>
+                <% }
+        %>
+    </p>
+
+
+    <!--Footer goes in here-->
+</body>
+
+</html>
