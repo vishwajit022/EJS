@@ -3,4 +3,5 @@
 
 <p>Extension: index.ejs</p>
 <p>Here we write js inside HTML without using script tag </p>
-<p>It is used for Dynamic Website</p>
+<p>Embedded JavaScript is a programming language that is used to create interactive web applications. It is a client-side scripting language that runs inside the web browser. Embedded JavaScript enables web developers to create dynamic, interactive, and responsive web applications.</p>
+<p><%= variable%> \t JSOutput It will show up on Output Screen</p>
