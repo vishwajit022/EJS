@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1>
+        <%= kindOfDay %>
+    </h1>
+    <ul>
+        <li>Buy Food</li>
+        <li>Cook Food</li>
+        <li>Eat Food</li>
+        <% for(let i=0;i< item.length;i++ ){%>
+            <li>
+                <%= item[i] %>
+            </li>
+            <%}%>
+                <form action="/" method="post">
+                    <input type="text" name="newItem" autocomplete="off">
+                    <!--THis autocomplete is disable so that we won't see an suggestions-->
+                    <button type="submit">Add</button>
+                </form>
+    </ul>
+</body>
+
+<style>
+    .body {
+        background-color: blueviolet;
+        justify-content: center;
+    }
+</style>
+
+</html>
