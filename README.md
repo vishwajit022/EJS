@@ -91,5 +91,49 @@
   <div style="text-align: center;">
     <p>HTTP methods provide a standardized way for clients to interact with web servers and perform actions on resources.</p>
   </div>
+
+<h1>app.get("/")</h1>
+<p>app.get("/", (req, res) => {.....}</p>
+  <p>This code snippet uses Express.js to handle an HTTP GET request to the root path ("/") of a website.</p>
+  <p>When a user visits the homepage, the specified callback function is executed. This function can define how the server responds to the request, such as sending HTML content, data from a database, or other actions.</p>
+
+<h1>res.send</h1>
+<p>res.send("index.ejs", {
+  // ...
+});
+</p>
+ <h1>res.send()</h1>
+  <p>This code snippet uses Express.js to send a response to the client.</p>
+  <p>The <code>res.send()</code> method is used to send a response content, such as plain text or HTML, back to the client's browser. It's commonly used to send strings, HTML, or JSON data as responses.</p>
+
+
+  <h1>res.render()</h1>
+  <p> res.render("index.ejs", {
+        ................
+    });</p>
+  <p>This code snippet uses Express.js to render an EJS template with specific data values.</p>
+  <p>The method <code>res.render()</code> is used to render the "index.ejs" template. It includes data values such as <code>dayType</code> and <code>advice</code>, which can be accessed within the template to dynamically generate content based on the provided data.</p>
+  
+<h1>app.listen()</h1>
+<p>app.listen(3000, () => {
+  // ...
+});
+</p>
+
+   <h1>app.listen()</h1>
+  <p>This code snippet uses Express.js to start a web server and listen for incoming connections.</p>
+  <p>The method <code>app.listen()</code> is used to start a server on a specified port, in this case, port 3000. Once the server is running, the specified callback function is executed, allowing you to perform additional setup tasks or log server status.</p>
+
+<h1>
+  app.post("/", (req, res) => {
+  // ...
+  });</h1>
+ <p>This code snippet uses Express.js to handle an HTTP POST request to the root path ("/") of a website.</p>
+  <p>When a client submits data using an HTTP POST request to the homepage, the specified callback function is executed. This function can define how the server processes the submitted data and sends a response back to the client.</p>
+
+
+</h1>
+
+  
 </body>
 </html>
