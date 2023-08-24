@@ -11,3 +11,7 @@
 <p><%% %%>                       <br>                                                    If we wish to % on our server website we can use it to display % on UI</p>
 <p> <%# This is a Commnet %>          <br>                                                THis won't be interpreted it will act as a comment                </p>
 <p><%- include("index.ejs")%>            <br>                                            Insert another EJS file</p>
+
+
+<h1>Moving on to Hands on stuff!!</h1>
+<img src="https://static.wikia.nocookie.net/dragonball/images/b/ba/Goku_anime_profile.png/revision/latest?cb=20220825041430">
