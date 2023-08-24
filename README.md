@@ -14,4 +14,4 @@
 
 
 <h1>Moving on to Hands on stuff!!</h1>
-<img src="https://static.wikia.nocookie.net/dragonball/images/b/ba/Goku_anime_profile.png/revision/latest?cb=20220825041430">
+<img src="https://static.wikia.nocookie.net/dragonball/images/b/ba/Goku_anime_profile.png/revision/latest?cb=20220825041430" width="70px" height="30">
