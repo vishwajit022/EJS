@@ -2,42 +2,8 @@
 <html>
 <head>
   <title>Embedded JavaScript and HTTP Methods</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f8f8;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    h1, h2 {
-      text-align: center;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      margin-bottom: 10px;
-    }
-    pre {
-      background-color: #f4f4f4;
-      padding: 10px;
-      border: 1px solid #ccc;
-    }
-    code {
-      font-family: "Courier New", monospace;
-    }
-  </style>
+  
+   
 </head>
 <body>
   <div class="container">
